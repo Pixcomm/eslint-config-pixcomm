@@ -1,0 +1,41 @@
+{
+  "name": "eslint-config-intvbrasil",
+  "version": "0.0.1",
+  "description": "ESLint shareable config for the INTV Brasil style",
+  "main": "index.js",
+  "scripts": {
+    "test": "./nodew test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/INTV-Brasil/eslint-config-intvbrasil.git"
+  },
+  "keywords": [
+    "intv",
+    "brasil",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "jscs",
+    "jshint",
+    "jslint",
+    "eslint",
+    "validate",
+    "code",
+    "style",
+    "strict",
+    "check",
+    "checker",
+    "verify",
+    "enforce",
+    "hint"
+  ],
+  "author": "INTV Brasil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/INTV-Brasil/eslint-config-intvbrasil/issues"
+  },
+  "homepage": "https://github.com/INTV-Brasil/eslint-config-intvbrasil#readme"
+}
