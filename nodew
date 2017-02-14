@@ -16,7 +16,7 @@ DIST_BASE_URL=$NODEW_DIST_BASE_URL
 
 # default version if not set
 if [[ -z "$INSTALL_VERSION" ]]; then
-  INSTALL_VERSION="6.9.1";
+  INSTALL_VERSION="6.9.5";
 fi
 
 # default download location if not set
