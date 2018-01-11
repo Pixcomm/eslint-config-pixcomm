@@ -59,8 +59,8 @@ module.exports = {
     "no-trailing-spaces": 2,
     "no-mixed-spaces-and-tabs": 2,
     "indent": [
+      "error",
       2,
-      "space",
       {
         "SwitchCase": 1
       }
