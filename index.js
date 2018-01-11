@@ -60,7 +60,7 @@ module.exports = {
     "no-mixed-spaces-and-tabs": 2,
     "indent": [
       2,
-      "tab",
+      "space",
       {
         "SwitchCase": 1
       }
