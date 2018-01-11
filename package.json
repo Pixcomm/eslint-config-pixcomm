@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-intvbrasil",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ESLint shareable config for the INTV Brasil style",
   "main": "index.js",
   "scripts": {
