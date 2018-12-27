@@ -1,14 +1,14 @@
 {
-  "name": "eslint-config-intvbrasil",
+  "name": "eslint-config-intelifi",
   "version": "0.0.4",
-  "description": "ESLint shareable config for the INTV Brasil style",
+  "description": "ESLint shareable config for the InteliFI style",
   "main": "index.js",
   "scripts": {
     "test": "./nodew test/test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/INTV-Brasil/eslint-config-intvbrasil.git"
+    "url": "git+https://github.com/InteliFi/eslint-config-intvbrasil.git"
   },
   "keywords": [
     "intv",
@@ -32,10 +32,10 @@
     "enforce",
     "hint"
   ],
-  "author": "INTV Brasil",
+  "author": "InteliFI",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/INTV-Brasil/eslint-config-intvbrasil/issues"
+    "url": "https://github.com/InteliFI/eslint-config-intelifi/issues"
   },
-  "homepage": "https://github.com/INTV-Brasil/eslint-config-intvbrasil#readme"
+  "homepage": "https://github.com/InteliFI/eslint-config-intelifi#readme"
 }
