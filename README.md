@@ -1,1 +1,1 @@
-# eslint-config-intvbrasil
+# eslint-config-intelifi
