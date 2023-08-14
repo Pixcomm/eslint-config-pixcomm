@@ -1,3 +1,7 @@
 node_modules/
 bin/
 *.*.swp
+
+# Local files
+package-lock.json
+yarn.lock
