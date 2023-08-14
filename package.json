@@ -1,17 +1,17 @@
 {
-  "name": "eslint-config-intelifi",
+  "name": "eslint-config-pixcomm",
   "version": "0.0.4",
-  "description": "ESLint shareable config for the InteliFI style",
+  "description": "ESLint shareable config for the Pixcomm style",
   "main": "index.js",
   "scripts": {
     "test": "./nodew test/test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/InteliFi/eslint-config-intvbrasil.git"
+    "url": "git+https://github.com/Pixcomm/eslint-config-pixcomm.git"
   },
   "keywords": [
-    "intv",
+    "pixcomm",
     "brasil",
     "code",
     "quality",
@@ -32,10 +32,10 @@
     "enforce",
     "hint"
   ],
-  "author": "InteliFI",
+  "author": "Pixcomm",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/InteliFI/eslint-config-intelifi/issues"
+    "url": "https://github.com/Pixcomm/eslint-config-Pixcomm/issues"
   },
-  "homepage": "https://github.com/InteliFI/eslint-config-intelifi#readme"
+  "homepage": "https://github.com/Pixcomm/eslint-config-Pixcomm#readme"
 }
