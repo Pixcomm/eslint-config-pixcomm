@@ -6,6 +6,12 @@
 npm install --save-dev eslint-config-pixcomm
 ```
 
+or
+
+```bash
+yarn add -D eslint-config-pixcomm
+```
+
 ## Usage
 
 Add to your `.eslintrc` file:
@@ -18,4 +24,4 @@ Add to your `.eslintrc` file:
 
 ## License
 
-MIT
+Mozilla Public License 2.0
