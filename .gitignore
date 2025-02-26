@@ -5,3 +5,4 @@ bin/
 # Local files
 package-lock.json
 yarn.lock
+bun.lockb
