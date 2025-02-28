@@ -1,6 +1,6 @@
 {
   "name": "@pixcomm/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.29",
   "description": "ESLint shareable config by Pixcomm.",
   "private": false,
   "publishConfig": {
@@ -43,11 +43,12 @@
   },
   "homepage": "https://github.com/Pixcomm/eslint-config-Pixcomm#readme",
   "dependencies": {
+    "@eslint/eslintrc": "^3.3.0",
+    "@eslint/js": "^9.21.0",
     "@typescript-eslint/eslint-plugin": "^8.25.0",
     "@typescript-eslint/parser": "^8.25.0",
     "eslint": "^9.21.0",
     "eslint-config-prettier": "^10.0.2",
-    "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-n": "^17.15.1",
@@ -55,6 +56,7 @@
     "eslint-plugin-promise": "^7.2.1",
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.1.0",
-    "prettier": "^3.5.2"
+    "prettier": "^3.5.2",
+    "prettier-eslint": "^16.3.0"
   }
 }

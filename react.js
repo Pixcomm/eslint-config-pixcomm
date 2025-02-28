@@ -7,7 +7,6 @@ module.exports = {
   extends: [
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
-    "standard",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
   ],
@@ -25,13 +24,16 @@ module.exports = {
     "prettier/prettier": [
       "error",
       {
-        printWidth: 80,
-        tabWidth: 2,
+        printWidth: 120,
         singleQuote: true,
-        trailingComma: "all",
+        trailingComma: "none",
         arrowParens: "always",
-        semi: false,
+        semi: true,
         endOfLine: "auto",
+        bracketSpacing: true,
+        bracketSameLine: false,
+        objectWrap: "collapse",
+        singleAttributePerLine: true,
       },
     ],
     "react/react-in-jsx-scope": "off",

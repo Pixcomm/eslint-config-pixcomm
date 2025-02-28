@@ -22,6 +22,7 @@ For NodeJS projects:
 {
   "extends": "@pixcomm/eslint-config/node"
 }
+```
 
 For React projects:
 
