@@ -18,7 +18,7 @@ Add to your `.eslintrc` file:
 
 For NodeJS projects:
 
-````json
+```json
 {
   "extends": "@pixcomm/eslint-config/node"
 }
@@ -30,7 +30,7 @@ For React projects:
 {
   "extends": "@pixcomm/eslint-config/react"
 }
-````
+```
 
 For NextJS projects:
 
