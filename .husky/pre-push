@@ -3,15 +3,21 @@
 # Get the current branch name
 branch=$(git symbolic-ref --short HEAD)
 
-# Check if this is a version commit (to avoid infinite loops)
-commit_msg=$(git log -1 --pretty=%B)
-if [[ $commit_msg == *"v0.0."* ]]; then
-  echo "This appears to be a version commit, skipping version bump to avoid infinite loop"
-  exit 0
-fi
-
 # Only bump version when pushing to master/main
 if [ "$branch" = "master" ] || [ "$branch" = "main" ]; then
-  echo "Pushing to master/main - bumping version..."
-  npm run version:patch
+  echo "Pushing to master/main - checking if version bump is needed..."
+
+  # Get current version from package.json
+  current_version=$(node -e "console.log(require('./package.json').version)")
+
+  # Calculate next patch version
+  next_version=$(node -e "const v = '${current_version}'.split('.'); v[2] = parseInt(v[2]) + 1; console.log(v.join('.'))")
+
+  # Check if tag for next version already exists
+  if git rev-parse "v${next_version}" >/dev/null 2>&1; then
+    echo "Tag v${next_version} already exists, skipping version bump"
+  else
+    echo "Bumping version to ${next_version}..."
+    npm run version:patch
+  fi
 fi
