@@ -1,6 +1,6 @@
 {
   "name": "@pixcomm/eslint-config",
-  "version": "0.0.42",
+  "version": "0.0.43",
   "description": "ESLint shareable config by Pixcomm.",
   "private": false,
   "publishConfig": {
