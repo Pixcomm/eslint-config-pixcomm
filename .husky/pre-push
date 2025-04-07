@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+# Get the current branch name
+branch=$(git symbolic-ref --short HEAD)
+
+# Only bump version when pushing to master/main
+if [ "$branch" = "master" ] || [ "$branch" = "main" ]; then
+  echo "Pushing to master/main - bumping version..."
+  npm run version:patch
+fi
