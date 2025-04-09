@@ -68,6 +68,8 @@ module.exports = {
     'node/no-unsupported-features/es-builtins': 'off',
     'node/no-unsupported-features/es-syntax': 'off',
     'node/no-unsupported-features/node-builtins': 'off',
+    'node/no-unpublished-import': 'off', // Allow imports of unpublished packages
+    'import/no-unresolved': 'off',
 
     // Regras TypeScript
     '@typescript-eslint/explicit-module-boundary-types': 'off', // Flexibilidade em Serverless
