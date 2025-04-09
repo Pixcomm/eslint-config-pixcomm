@@ -58,7 +58,7 @@ module.exports = {
         ignores: ['modules'],
       },
     ],
-    'node/no-missing-import': 'on', // ES Modules nativos
+    'node/no-missing-import': 'off', // ES Modules nativos
     'no-process-exit': 'off', // Útil em Serverless
     'node/no-exports-assign': 'off',
     'node/no-deprecated-api': 'off',
