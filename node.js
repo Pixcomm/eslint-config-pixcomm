@@ -60,6 +60,14 @@ module.exports = {
     ],
     'node/no-missing-import': 'off', // ES Modules nativos
     'no-process-exit': 'off', // Útil em Serverless
+    'node/no-exports-assign': 'off',
+    'node/no-deprecated-api': 'off',
+    'node/no-extraneous-require': 'off',
+    'node/no-missing-require': 'off',
+    'node/no-unpublished-require': 'off',
+    'node/no-unsupported-features/es-builtins': 'off',
+    'node/no-unsupported-features/es-syntax': 'off',
+    'node/no-unsupported-features/node-builtins': 'off',
 
     // Regras TypeScript
     '@typescript-eslint/explicit-module-boundary-types': 'off', // Flexibilidade em Serverless
